@@ -2,17 +2,22 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <section className='home' id='home'>
-        <div className="container">
-            <div className="row d-flex align-items-center">
-                <div className="col-md-6"></div>
-                <div className="col-md-6">
-                    <h2>Headway Tires. Safety That <span>Seals</span> Itself.</h2>
-                    <p>our self-sealing technology closes punctures instantly—so you keep moving without worry.</p>
-                    <a href='#why' className='btn btn-main'>Explore Now</a>
-                </div>
-            </div>
+    <section className='home' id='home' dir='rtl'>
+      <div className="container">
+        <div className="row d-flex align-items-center text-end">
+          <div className="col-md-6">
+            <h2>
+              مصمم للمستقبل <span>بإحكام</span>.
+              من أجل سلامتك.
+            </h2>
+            <p>
+              تقنيتنا ذاتية الإغلاق تُغلق الثقوب فورًا — لتستمر في الحركة دون قلق.
+            </p>
+            <a href='#why' className='btn btn-main'>استكشف الآن</a>
+          </div>
+          <div className="col-md-6"></div>
         </div>
+      </div>
     </section>
   )
 }

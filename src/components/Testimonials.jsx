@@ -3,23 +3,23 @@ import { Star } from "lucide-react"
 
 const testimonials = [
   {
-    name: "Ahmed Mostafa",
-    role: "Fleet Manager",
-    feedback: "Speed Seal tires gave us unmatched reliability. No more downtime due to punctures — truly a game changer!",
+    name: "أحمد مصطفى",
+    role: "صاحب مركز صيانه",
+    feedback: "إطارات سبيد سيل منحتنا موثوقية لا مثيل لها. لم نعد نعاني من التوقف بسبب الثقوب — فعلاً غيرت قواعد اللعبة!",
     rating: 5,
     avatar: null
   },
   {
-    name: "Sarah Khaled",
-    role: "Car Owner",
-    feedback: "I feel much safer driving with Speed Seal tires. The self-sealing tech actually saved me on the highway!",
+    name: "منه خالد",
+    role: "مالكة سيارة",
+    feedback: "أشعر بأمان أكبر أثناء القيادة مع إطارات سبيد سيل. تقنية الإغلاق الذاتي أنقذتني فعلاً على الطريق السريع!",
     rating: 5,
     avatar: null
   },
   {
-    name: "Mohamed Ali",
-    role: "Logistics Supervisor",
-    feedback: "Durable, fuel-efficient, and hassle-free. These tires deliver exactly what we need for long-haul transport.",
+    name: "محمد علي",
+    role: "مشرف لوجستي",
+    feedback: "متينة، موفرة للوقود، وخالية من المتاعب. هذه الإطارات تقدم تماماً ما نحتاجه للنقل لمسافات طويلة.",
     rating: 4,
     avatar: null
   }
@@ -27,14 +27,14 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <section className="testimonials py-5 bg-light">
+    <section className="testimonials py-5 bg-light" dir="rtl">
       <div className="container">
         {/* Section Header */}
         <div className="text-center mb-5">
           <h2 className="fw-bold">
-            What Our <span style={{ color: "#E47945" }}>Customers Say</span>
+            ماذا يقول <span style={{ color: "#E47945" }}>عملاؤنا</span>
           </h2>
-          <p className="text-muted">Real feedback from drivers and fleet managers who trust Speed Seal tires.</p>
+          <p className="text-muted">آراء حقيقية من السائقين ومديري الأساطيل الذين يثقون في إطارات سبيد سيل.</p>
         </div>
 
         {/* Testimonials Grid */}

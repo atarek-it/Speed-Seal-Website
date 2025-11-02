@@ -3,14 +3,14 @@ import { Truck, Wrench, Headphones, ShieldCheck, RotateCcw, Zap, Star, Settings 
 
 const Services = () => {
   const services = [
-    { icon: <Truck size={30} color="#E47945" />, title: "Fast Delivery", desc: "Quick and reliable delivery service, ensuring your tires arrive on time." },
-    { icon: <Wrench size={30} color="#E47945" />, title: "Tire Installation", desc: "Professional installation & balancing services for a safe ride." },
-    { icon: <Headphones size={30} color="#E47945" />, title: "24/7 Support", desc: "Our team is available around the clock to assist you anytime." },
-    { icon: <ShieldCheck size={30} color="#E47945" />, title: "Warranty & Returns", desc: "Hassle-free warranty and returns for your peace of mind." },
-    { icon: <RotateCcw size={30} color="#E47945" />, title: "Tire Rotation", desc: "Extend the life of your tires with our professional rotation services." },
-    { icon: <Zap size={30} color="#E47945" />, title: "Vehicle Inspection", desc: "Comprehensive vehicle checks to ensure your safety on the road." },
-    { icon: <Star size={30} color="#E47945" />, title: "Premium Quality Tires", desc: "We provide only the best tires, tested for durability and safety." },
-    { icon: <Settings size={30} color="#E47945" />, title: "Maintenance Services", desc: "Expert tire maintenance and repairs for optimal performance." },
+    { icon: <Truck size={30} color="#E47945" />, title: "توصيل سريع", desc: "خدمة توصيل سريعة وموثوقة تضمن وصول إطاراتك في الوقت المحدد." },
+    { icon: <Wrench size={30} color="#E47945" />, title: "تركيب الإطارات", desc: "خدمات تركيب وتوازن احترافية لقيادة آمنة ومريحة." },
+    { icon: <Headphones size={30} color="#E47945" />, title: "دعم على مدار الساعة", desc: "فريقنا متاح على مدار 24 ساعة لتقديم المساعدة في أي وقت." },
+    { icon: <ShieldCheck size={30} color="#E47945" />, title: "الضمان والاسترجاع", desc: "ضمان لمدة سنتين — استمتع بتغطية خالية من المتاعب وعمليات استرجاع سهلة لراحة بالك." },
+    { icon: <RotateCcw size={30} color="#E47945" />, title: "تدوير الإطارات", desc: "مدد عمر الإطارات من خلال خدمات التدوير الاحترافية لدينا." },
+    { icon: <Zap size={30} color="#E47945" />, title: "فحص المركبة", desc: "فحوصات شاملة للمركبة لضمان سلامتك أثناء القيادة." },
+    { icon: <Star size={30} color="#E47945" />, title: "إطارات عالية الجودة", desc: "نقدم أفضل الإطارات فقط، التي تم اختبارها لضمان المتانة والسلامة." },
+    { icon: <Settings size={30} color="#E47945" />, title: "خدمات الصيانة", desc: "صيانة وإصلاح احترافي للإطارات لتحقيق الأداء الأمثل." },
   ];
 
   return (
@@ -18,9 +18,9 @@ const Services = () => {
       <div className="container">
         <div className="text-center mb-5">
           <h2 className="fw-bold">
-            Our <span style={{ color: "#E47945" }}>Services</span>
+            <span style={{ color: "#E47945" }}>خدماتنا</span>
           </h2>
-          <p className="text-muted">We don’t just provide products – we provide complete solutions.</p>
+          <p className="text-muted">نحن لا نقدم منتجات فقط – بل نقدم حلولًا متكاملة.</p>
         </div>
 
         <div className="row g-4">

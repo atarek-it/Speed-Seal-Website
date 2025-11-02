@@ -25,7 +25,7 @@ body {
 }
 
 .logo{
-  width: 20%;
+  width: 100%;
 }
 
 .nav-link::after {
@@ -95,6 +95,18 @@ span{
 .contact a {
   text-decoration: none;
 }
+.contact-card ul li {
+  display: flex;
+  justify-content: flex-end; /* خلى المحتوى على اليمين */
+  align-items: center;
+  gap: 10px; /* مسافة بين الأيقونة والنص */
+}
+
+.contact-card ul li span,
+.contact-card ul li a {
+  text-align: right; /* اجعل النص على اليمين */
+}
+
 .footer-links a {
   color: var(--light) !important;
   transition: color 0.3s ease-in-out;
